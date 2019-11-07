@@ -1,0 +1,18 @@
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\bin\Debug\YGOPro CardManager.exe.config
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\bin\Debug\YGOPro CardManager.exe
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\bin\Debug\YGOPro CardManager.pdb
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\bin\Debug\System.Data.SQLite.dll
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\YgoPro CardManager.csprojAssemblyReference.cache
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.BanListEditor.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.CDBEditor.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.Components.FormatConverter.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.TextEditor.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.IDConverter.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.MainFrm.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.Properties.Resources.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\DevPro_CardManager.ReplayExtracter.resources
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\YgoPro CardManager.csproj.GenerateResource.cache
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\YgoPro CardManager.csproj.CoreCompileInputs.cache
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\YgoPro CardManager.csproj.CopyComplete
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\YGOPro CardManager.exe
+E:\YUGIOH Proyecto HD cards\crear scripts\DevProCardManager\obj\x86\Debug\YGOPro CardManager.pdb

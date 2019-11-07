@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{830F5283-4DA9-4D5A-9AD8-9035CEB8D224}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevPro_CardManager</RootNamespace>
+    <AssemblyName>YGOPro CardManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gemfusion.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DevPro_CardManager.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\Dropbox\Dev Projects\buttys projects\DevProLauncher\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BanListEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanListEditor.Designer.cs">
+      <DependentUpon>BanListEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardInfo.cs" />
+    <Compile Include="CardManager.cs" />
+    <Compile Include="CDBData.cs" />
+    <Compile Include="CDBEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDBEditor.Designer.cs">
+      <DependentUpon>CDBEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\FormatConverter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\FormatConverter.Designer.cs">
+      <DependentUpon>FormatConverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ReplayReader.cs" />
+    <Compile Include="Components\SearchBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseHelper.cs" />
+    <Compile Include="Enums\CardType.cs" />
+    <Compile Include="Enums\LinkMarker.cs" />
+    <Compile Include="TextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextEditor.Designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDConverter.Designer.cs">
+      <DependentUpon>IDConverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageResizer.cs" />
+    <Compile Include="Main_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_frm.Designer.cs">
+      <DependentUpon>Main_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplayExtracter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplayExtracter.Designer.cs">
+      <DependentUpon>ReplayExtracter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SevenZip\Common\CommandLineParser.cs" />
+    <Compile Include="SevenZip\Common\CRC.cs" />
+    <Compile Include="SevenZip\Common\InBuffer.cs" />
+    <Compile Include="SevenZip\Common\OutBuffer.cs" />
+    <Compile Include="SevenZip\Compress\LZMA\LzmaBase.cs" />
+    <Compile Include="SevenZip\Compress\LZMA\LzmaDecoder.cs" />
+    <Compile Include="SevenZip\Compress\LZMA\LzmaEncoder.cs" />
+    <Compile Include="SevenZip\Compress\LZ\IMatchFinder.cs" />
+    <Compile Include="SevenZip\Compress\LZ\LzBinTree.cs" />
+    <Compile Include="SevenZip\Compress\LZ\LzInWindow.cs" />
+    <Compile Include="SevenZip\Compress\LZ\LzOutWindow.cs" />
+    <Compile Include="SevenZip\Compress\RangeCoder\RangeCoder.cs" />
+    <Compile Include="SevenZip\Compress\RangeCoder\RangeCoderBit.cs" />
+    <Compile Include="SevenZip\Compress\RangeCoder\RangeCoderBitTree.cs" />
+    <Compile Include="SevenZip\ICoder.cs" />
+    <Compile Include="SQLCommands.cs" />
+    <EmbeddedResource Include="BanListEditor.resx">
+      <DependentUpon>BanListEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDBEditor.resx">
+      <DependentUpon>CDBEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\FormatConverter.resx">
+      <DependentUpon>FormatConverter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDConverter.resx">
+      <DependentUpon>IDConverter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_frm.resx">
+      <DependentUpon>Main_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReplayExtracter.resx">
+      <DependentUpon>ReplayExtracter.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\cardattributes.txt" />
+    <Content Include="Assets\cardformats.txt" />
+    <Content Include="Assets\cardraces.txt" />
+    <Content Include="Assets\setname.txt" />
+    <Content Include="gemfusion.ico" />
+    <Content Include="System.Data.SQLite.dll" />
+    <None Include="Resources\unknown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

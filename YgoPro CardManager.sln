@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YgoPro CardManager", "YgoPro CardManager.csproj", "{830F5283-4DA9-4D5A-9AD8-9035CEB8D224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{830F5283-4DA9-4D5A-9AD8-9035CEB8D224}.Debug|x86.ActiveCfg = Debug|x86
+		{830F5283-4DA9-4D5A-9AD8-9035CEB8D224}.Debug|x86.Build.0 = Debug|x86
+		{830F5283-4DA9-4D5A-9AD8-9035CEB8D224}.Release|x86.ActiveCfg = Release|x86
+		{830F5283-4DA9-4D5A-9AD8-9035CEB8D224}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6951378-3049-493C-8234-4F0A07432A01}
+	EndGlobalSection
+EndGlobal

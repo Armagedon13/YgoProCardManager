@@ -1,0 +1,471 @@
+﻿!counter 0x1 Contador Mágico
+!counter 0x1002 Contador de Cuña
+!counter 0x3 Contador de Bushido
+!counter 0x4 Contador Psíquico
+!counter 0x5 Contador de Brillo
+!counter 0x6 Contador de Cristal
+!counter 0x7 Contador (Colosseum - Cage of the Gladiator Beasts)
+!counter 0x8 Contador Mórfico
+!counter 0x1009 Poison Counter
+!counter 0xa Contador Genex
+!counter 0xb Contador (Ancient City)
+!counter 0xc Contador de Trueno
+!counter 0xd Contador de Codicia
+!counter 0x100e Contador-A
+!counter 0xf Contador Gusano
+!counter 0x10 Contador de Pluma Negra
+!counter 0x11 Contador de Híper-Veneno
+!counter 0x12 Contador Karakuri
+!counter 0x13 Contador de Caos
+!counter 0x14 Contador (Miracle Jurassic Egg)
+!counter 0x1015 Contador de Hielo
+!counter 0x16 Contador de Piedra Mágica
+!counter 0x17 Contador de Fruto Seco
+!counter 0x18 Contador Floral
+!counter 0x1019 Contador de Niebla
+!counter 0x20 Contador de Planta
+!counter 0x1a Double Counter
+!counter 0x1b Contador de Reloj
+!counter 0x1c Contador D
+!counter 0x1d Contador de Basura
+!counter 0x1e Contador de Portal
+!counter 0x1f Contador (B.E.S.)
+!counter 0x1021 Contador de Guardia
+!counter 0x22 Contador Dracónico
+!counter 0x23 Contador de Océano
+!counter 0x1024 Contador de Hilo
+!counter 0x25 Contador de Crónica
+!counter 0x26 Contador (Metal Shooter)
+!counter 0x27 Contador (Des Mosquito)
+!counter 0x28 Contador (Dark Catapulter)
+!counter 0x29 Contador (Balloon Lizard)
+!counter 0x102a Contador (Magic Reflector)
+!counter 0x2b Contador de Destino
+!counter 0x2c Contador ¡Lo Tiene, Jefe!
+!counter 0x2d Contador (Kickfire)
+!counter 0x2e Contador Tiburón
+!counter 0x2f Contador Calabaza
+!counter 0x30 Contadores Tocar el Cielo de esta carta
+!counter 0x31 Contador de Sol Naciente
+!counter 0x32 Contador de Globo
+!counter 0x33 Contador Yosen
+!counter 0x34 Contador (BOXer)
+!counter 0x35 Contador Sinfónico
+!counter 0x36 Contador de Artilusionista
+!counter 0x37 Contador Kaiju
+!counter 0x1038 Contador Cúbico
+!counter 0x1039 Contador Zushin
+!counter 0x40 Contador (Number 51: Finisher the Strong Arm)
+!counter 0x1041 Contador de Predador
+!counter 0x42 Contador (Fire Cracker)
+!counter 0x43 Contador de Defectos
+!counter 0x44 Contador (Linkbelt Wall Dragon)
+!counter 0x1045 Contador de Escama 
+!counter 0x46 Contador (Gouki Deathmatch)
+!counter 0x47 Contador (Limit Code)
+!counter 0x48 Contador (Link Turret)
+!counter 0x1049 Contador Patrol
+!counter 0x4a Contador Athlete
+!counter 0x4b Contador Borrel
+!counter 0x4c Contador Summon
+!counter 0x104d Signal Counter
+!counter 0x4e Counter(Pendulum of Souls)
+!counter 0x104f Venemy Counter
+!counter 0x50 Counter(Performapal Turn Trooper)
+!counter 0x90 Contador de Doncella
+!counter 0x91 Contador de Velocidad
+!counter 0x92 Contador de Plasma
+!counter 0x93 Contrar de Bestia Sagrada
+!counter 0x94 Contador Calabaza
+!counter 0x95 Contador de Sol Naciente
+#setnames
+!setname 0x1 Ally of Justice
+!setname 0x2 Genex
+!setname 0x1002 R-Genex
+!setname 0x2002 Genex Ally
+!setname 0x3 N/A
+!setname 0x4 Amazoness
+!setname 0x5 Arcana Force
+!setname 0x6 Dark World
+!setname 0x7 Ancient Gear
+!setname 0x8 HERO
+!setname 0x3008 Elemental HERO
+!setname 0x5008 Vision HERO
+!setname 0x6008 Evil HERO
+!setname 0xa008 Masked HERO
+!setname 0xc008 Destiny HERO
+!setname 0x9 Neos
+!setname 0xa lswarm
+!setname 0x100a Steelswarm
+!setname 0xb Infernity
+!setname 0xc Alien
+!setname 0xd Saber
+!setname 0x100d X-Saber
+!setname 0x300d XX-Saber
+!setname 0xe Watt
+!setname 0xf Ojama
+!setname 0x10 Gusto
+!setname 0x11 Karakuri
+!setname 0x12 Frog
+!setname 0x13 Meklord
+!setname 0x3013 Meklord Emperor
+!setname 0x6013 Meklord Army
+!setname 0x14 N/A
+!setname 0x15 B.E.S.
+!setname 0x16 roid
+!setname 0x1016 Vehicroid
+!setname 0x2016 Speedroid
+!setname 0x17 Synchro
+!setname 0x1017 Synchron
+!setname 0x2017 Synchro Dragon
+!setname 0x18 Cloudian
+!setname 0x19 Gladiator Beast
+!setname 0x1a Dark Scorpion
+!setname 0x1b Phantom Beast
+!setname 0x101b Mecha Phantom Beast
+!setname 0x1c N/A
+!setname 0x1d Koa'ki Meiru
+!setname 0x1e Chrysalis
+!setname 0x1f Neo-Spacian
+!setname 0x20 Shien
+!setname 0x21 Earthbound Immortal
+!setname 0x22 Jurrac
+!setname 0x23 Malefic
+!setname 0x24 Scrap
+!setname 0x25 Iron Chain
+!setname 0x26 Morphtronic
+!setname 0x27 T.G.
+!setname 0x28 Batteryman
+!setname 0x29 Dragunity
+!setname 0x2a Naturia
+!setname 0x2b Ninja
+!setname 0x102b Armor Ninja
+!setname 0x2c Flamvell
+!setname 0x2d N/A
+!setname 0x2e Gravekeeper's
+!setname 0x2f Ice Barrier
+!setname 0x30 Vylon
+!setname 0x31 Fortune Lady
+!setname 0x32 Volcanic
+!setname 0x33 Blackwing
+!setname 0x1033 Assault Blackwing
+!setname 0x34 Crystal
+!setname 0x1034 Crystal Beast
+!setname 0x2034 Ultimate Crystal
+!setname 0x35 Fabled
+!setname 0x36 Machina
+!setname 0x37 Mist Valley
+!setname 0x38 Lightsworn
+!setname 0x39 Laval
+!setname 0x3a Gishki
+!setname 0x3b Red-Eyes
+!setname 0x3c Reptilianne
+!setname 0x3d Six Samurai
+!setname 0x103d Secret Six Samurai
+!setname 0x3e Worm
+!setname 0x3f Majestic
+!setname 0x40 Forbidden One
+!setname 0x41 LV
+!setname 0x42 Nordic
+!setname 0x3042 Nordic Ascendant
+!setname 0x6042 Nordic Beast
+!setname 0xa042 Nordic Alfar
+!setname 0x5042 Nordic Relic
+!setname 0x43 Junk
+!setname 0x44 The Agent
+!setname 0x45 Archfiend
+!setname 0x1045 Red Dragon Archfiend
+!setname 0x46 Polymerization/Fusion
+!setname 0x1046 Fusion Dragon
+!setname 0x47 Gem-
+!setname 0x1047 Gem-Knight
+!setname 0x48 Number
+!setname 0x1048 Number C
+!setname 0x5048 Number C39
+!setname 0x49 Skyblaster
+!setname 0x4a Timelord
+!setname 0x4b Aesir
+!setname 0x4c Trap Hole
+!setname 0x4d Beast's Battle
+!setname 0x4e Evol
+!setname 0x304e Evoltile
+!setname 0x604e Evolsaur
+!setname 0x504e Evolzar
+!setname 0x4f N/A
+!setname 0x104f /Assault Mode
+!setname 0x50 Venom
+!setname 0x1050 Starving Venom
+!setname 0x51 Gadget
+!setname 0x52 Guardian
+!setname 0x53 Constellar
+!setname 0x54 Gagaga
+!setname 0x55 Photon
+!setname 0x56 Inzektor
+!setname 0x57 Resonator
+!setname 0x58 Wind-Up
+!setname 0x59 Gogogo
+!setname 0x5a Penguin
+!setname 0x5b Inmato
+!setname 0x5c Sphinx
+!setname 0x5d N/A
+!setname 0x5e N/A
+!setname 0x5f N/A
+!setname 0x60 Bamboo Sword
+!setname 0x61 Ninjitsu Art
+!setname 0x62 Toon
+!setname 0x63 Reactor
+!setname 0x64 Harpie
+!setname 0x65 Infestation
+!setname 0x66 Warrior
+!setname 0x1066 Symphonic Warrior
+!setname 0x2066 Magnet Warrior
+!setname 0x67 Iron
+!setname 0x68 Tin
+!setname 0x69 Hieratic
+!setname 0x6a Butterspy
+!setname 0x6b Bounzer
+!setname 0x6c Lightray
+!setname 0x6d Djinn
+!setname 0x106d Djinn of Rituals
+!setname 0x6e Prophecy
+!setname 0x106e Spellbook
+!setname 0x6f Heroic
+!setname 0x106f Heroic Challenger 
+!setname 0x206f Heroic Champion
+!setname 0x70 Chronomaly
+!setname 0x71 Madolche
+!setname 0x72 Geargia
+!setname 0x1072 Geargiano
+!setname 0x73 Xyz
+!setname 0x1073 CXyz 
+!setname 0x2073 Xyz Dragon
+!setname 0x74 Mermail
+!setname 0x75 Abyss-
+!setname 0x76 Heraldic Beast
+!setname 0x77 Atlantean
+!setname 0x78 Nimble
+!setname 0x79 Fire Fist
+!setname 0x7a Noble
+!setname 0x107a Noble Knight
+!setname 0x207a Noble Arms
+!setname 0x7b Galaxy
+!setname 0x107b Galaxy-Eyes
+!setname 0x307b Galaxy-Eyes Tachyon Dragon
+!setname 0x7c Fire Formation
+!setname 0x7d Hazy
+!setname 0x107d Hazy Flame
+!setname 0x7e ZW
+!setname 0x7f Utopi/c
+!setname 0x107f Utopia
+!setname 0x80 Duston
+!setname 0x81 Fire King
+!setname 0x1081 Fire King Avatar
+!setname 0x82 Dododo
+!setname 0x83 Gimmick Puppet
+!setname 0x84 Battlin' Boxer
+!setname 0x85 Super Defense Robot
+!setname 0x86 Star Seraph
+!setname 0x87 Umbral Horror
+!setname 0x88 Bujin
+!setname 0x89 Hole
+!setname 0x8a Envy
+!setname 0x108a Traptrix
+!setname 0x8b Malicevorous
+!setname 0x8c Druid
+!setname 0x8d Ghostrick
+!setname 0x8e Vampire
+!setname 0x8f Zubaba
+!setname 0x90 Sylvan
+!setname 0x91 Necrovalley
+!setname 0x92 Heraldry
+!setname 0x93 Cyber
+!setname 0x1093 Cyber Dragon
+!setname 0x2093 Cyber Angel
+!setname 0x4093 Cyberdark
+!setname 0x94 Cybernetic
+!setname 0x95 Rank-Up-Magic
+!setname 0x96 Fishborg
+!setname 0x97 Artifact
+!setname 0x98 Magician
+!setname 0x99 Odd-Eyes
+!setname 0x9a Superheavy Samurai
+!setname 0x109a Superheavy Samurai Soul
+!setname 0x9b Melodious
+!setname 0x109b Melodious Maestra
+!setname 0x9c tellarknight
+!setname 0x109c Stellarknight
+!setname 0x9d Shaddoll
+!setname 0x9e Yang Zing
+!setname 0x9f Performapal
+!setname 0xa0 Legendary Knight
+!setname 0xa1 Legendary Dragon
+!setname 0xa2 Magician
+!setname 0x10a2 Dark Magician
+!setname 0x20a2 Magician Girl
+!setname 0x30a2 Dark Magician Girl
+!setname 0xa3 Stardust
+!setname 0xa4 Kuriboh
+!setname 0x10a4 Winged Kuriboh
+!setname 0xa5 Change
+!setname 0xa6 sprout
+!setname 0xa7 Artorigus
+!setname 0xa8 Laundsallyn
+!setname 0xa9 Fluffal
+!setname 0xaa Qli
+!setname 0x10aa Apoqliphort
+!setname 0xab Deskbot
+!setname 0xac Goblin
+!setname 0xad Frightfur
+!setname 0xae Dark Contract
+!setname 0xaf D/D
+!setname 0x10af D/D/D
+!setname 0xb0 Gottoms
+!setname 0xb1 Burning Abyss
+!setname 0xb2 U.A.
+!setname 0xb3 Yosenju
+!setname 0xb4 Nekroz
+!setname 0xb5 Ritual Beast
+!setname 0x10b5 Ritual Beast Tamer
+!setname 0x20b5 Spiritual Beast
+!setname 0x30b5 Spiritual Beast Tamer
+!setname 0x40b5 Ritual Beast Ulti-
+!setname 0xb6 Outer Entity
+!setname 0xb7 Elder Entity
+!setname 0xb8 Old Entity
+!setname 0xb9 Blaze Accelerator
+!setname 0xba Raidraptor
+!setname 0xbb Infernoid
+!setname 0xbc Jinzo
+!setname 0xbd Gaia The Fierce Knight
+!setname 0xbe Monarch
+!setname 0xbf Charmer
+!setname 0xc0 Familiar-Possessed 
+!setname 0xc1 PSY-Frame
+!setname 0xc2 Power Tool
+!setname 0xc3 Edge Imp
+!setname 0xc4 Zefra
+!setname 0xc5 Void
+!setname 0xc6 Performage
+!setname 0xc7 Dracoslayer
+!setname 0xc8 Igknight
+!setname 0xc9 Aroma
+!setname 0xca Empowered Warrior
+!setname 0xcb Aether
+!setname 0xcc Prediction Princess
+!setname 0xcd Aqua
+!setname 0x10cd Aquaactress
+!setname 0x20cd Aquaarium
+!setname 0xcf Chaos
+!setname 0x10cf Black Luster Soldier
+!setname 0xd0 Majespecter
+!setname 0xd1 Graydle
+!setname 0xd2 Kozmo
+!setname 0xd3 Kaiju
+!setname 0xd4 Paleozoic
+!setname 0xd5 Dante
+!setname 0xd6 Destruction Sword
+!setname 0xd7 Buster Blader
+!setname 0xd8 Dinomist
+!setname 0xd9 Shiranui
+!setname 0xda Dracoverlord
+!setname 0xdb Phantom Knights
+!setname 0x10db The Phantom Knights
+!setname 0xdc Super Quant
+!setname 0x10dc Super Quantum
+!setname 0x20dc Super Quantal Mech Beast
+!setname 0xdd Blue-Eyes
+!setname 0xde Exodia
+!setname 0xdf Lunalight
+!setname 0xe0 Amorphage
+!setname 0xe1 Metalfoes
+!setname 0xe2 Triamid
+!setname 0xe3 Cubic
+!setname 0xe4 Celtic Guard
+!setname 0xe5 Cipher
+!setname 0xe6 Flower Cardian
+!setname 0xe7 Silent Swordsman
+!setname 0xe8 Silent Magician
+!setname 0xe9 Magna Warrior
+!setname 0xea Crystron
+!setname 0xeb Chemicritter
+!setname 0xec Abyss
+!setname 0x10ec Abyss Actor
+!setname 0x20ec Abyss Script
+!setname 0xed Subterror
+!setname 0x10ed Subterror Behemoth
+!setname 0xee SPYRAL
+!setname 0x10ee SPYRAL GEAR
+!setname 0x20ee SPYRAL MISSION
+!setname 0xef Darklord
+!setname 0xf0 Windwitch
+!setname 0xf1 Zoodiac
+!setname 0xf2 Pendulum
+!setname 0x10f2 Pendulum Dragon
+!setname 0x20f2 Pendulumgraph
+!setname 0xf3 Predap
+!setname 0x10f3 Predaplant
+!setname 0xf4 Invoked
+!setname 0xf5 Gandora
+!setname 0xf6 Skyscraper
+!setname 0xf7 Lyrilusc
+!setname 0xf8 Supreme King
+!setname 0x10f8 Supreme King Gate
+!setname 0x20f8 Supreme King Dragon
+!setname 0xf9 True King
+!setname 0xfa Phantasm Spiral
+!setname 0xfc Gouki
+!setname 0xfb Trickstar
+!setname 0xfd World Chalice
+!setname 0xfe World Legacy
+!setname 0xff Clear Wing
+!setname 0x100 Bonding -
+!setname 0x101 Code Talker
+!setname 0x102 Rokket
+!setname 0x103 Altergeist
+!setname 0x104 Krawler
+!setname 0x105 Metaphys
+!setname 0x106 Vendread
+!setname 0x107 F.A.
+!setname 0x108 Magical Musket
+!setname 0x109 The Weather
+!setname 0x10a Parshath
+!setname 0x10b Tindangle
+!setname 0x10c Mekk-Knight
+!setname 0x10d Mythical Beast
+!setname 0x10e Evolution Pill
+!setname 0x10f Borrel
+!setname 0x110 Eyes Restrict
+!setname 0x111 Armed Dragon
+!setname 0x400d Element Saber
+!setname 0x113 Elemental Lord
+!setname 0x112 Knightmare
+!setname 0x114 Fur Hire
+!setname 0x115 Sky Striker
+!setname 0x1115 Sky Striker Ace
+!setname 0x117 Impcantation
+!setname 0x116 Crusadia
+!setname 0x118 Cynet
+!setname 0x119 Salamangreat
+!setname 0x11a Dinowrestler
+!setname 0x11b Orcust
+!setname 0x11c Thunder Dragon
+!setname 0x11d Forbidden
+!setname 0x11e Danger!
+!setname 0x11f Nephthys
+!setname 0x120 Prank-Kids
+!setname 0x121 Mayakashi
+!setname 0x122 Valkyrie
+!setname 0x10d9 Shiranui Spectralsword
+!setname 0x123 Rose Dragon
+!setname 0x124 Machine Angel
+!setname 0x125 Smile
+!setname 0x126 Time Thief
+!setname 0x127 Infinitrack
+!setname 0x128 Witchcrafter
+!setname 0x129 Evil Eye
+!setname 0x12a Endymion
+!setname 0x12b Marincess
+!setname 0x12c Tenyi
+!setname 0x12d Simorgh
+!setname 0x22c Battlewasp
+!setname 0x1c7 Fosil
